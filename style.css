@@ -70,7 +70,7 @@ body {
 
 @media(max-width:600px) {
     .background {
-        height: 520px;
+        height: 420px;
     }
     .nav {
         width: 365px;
@@ -134,6 +134,55 @@ body {
     color: #365380;
 }
 
+@media(max-width:600px) {
+    .brownice {
+        top: 134px;
+        width: 100px;
+        height: 140px;
+        opacity: 1;
+        position: absolute;
+        left: 33px;
+    }
+    .content {
+        top: 256px;
+        width: 100%;
+        height: 95px;
+        text-align: center;
+        letter-spacing: 0px;
+        color: #365380;
+        opacity: 1;
+        position: absolute;
+        font-size: 30px;
+    }
+    .stawberry {
+        top: 154px;
+        width: 100px;
+        height: 130px;
+        position: absolute;
+        left: 360px;
+    }
+    .vanilla {
+        top: 190px;
+        width: 100px;
+        height: 132px;
+        position: absolute;
+        left: 351px;
+    }
+    .textline {
+        width: 139px;
+        height: 65px;
+        /*border: 1px solid black;*/
+        font-size: 9px;
+        top: 320px;
+        left: 62px;
+        position: absolute;
+        color: #365380;
+    }
+}
+
+
+/*button*/
+
 button {
     background-color: #365380;
     position: relative;
@@ -170,35 +219,6 @@ button {
 
 .box i {
     margin-left: 32px;
-}
-
-@media(max-width:600px) {
-    .brownice {
-        top: 134px;
-        width: 80px;
-        height: 100px;
-        opacity: 1;
-        position: absolute;
-        left: 33px;
-    }
-    .content {
-        top: 256px;
-        width: 100%;
-        height: 95px;
-        text-align: center;
-        letter-spacing: 0px;
-        color: #365380;
-        opacity: 1;
-        position: absolute;
-        font-size: 30px;
-    }
-    .stawberry {
-        top: 184px;
-        width: 90px;
-        height: 100px;
-        position: absolute;
-        left: 460px;
-    }
 }
 
 
